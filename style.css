@@ -127,6 +127,7 @@ p {
 .card {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .card-container {
   margin: 0 auto;
@@ -134,7 +135,7 @@ p {
   margin-bottom: 120px;
 }
 .card-content {
-  background-color: #ffffff;
+  background-image: linear-gradient(rgb(185, 221, 255), rgb(140, 200, 250));
   border-radius: 16px;
   text-align: center;
   margin-right: 30px;
@@ -172,7 +173,6 @@ footer.footer {
 /* responsive design */
 @media screen and (max-width: 768px) {
   .sector-image img {
-    width: 100%;
     margin-top: 20px;
   }
   .sector-content {
