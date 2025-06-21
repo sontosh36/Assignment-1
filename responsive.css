@@ -1,0 +1,104 @@
+/* design for Laptop screen(0-1240px) */
+@media screen and (max-width: 1240px) {
+  .logo h1 {
+    font-size: 30px;
+  }
+  .btn-resume {
+    font-size: 27px;
+  }
+  .btn-white {
+    font-size: 20px;
+  }
+  .heading-content h2 {
+    font-size: 40px;
+  }
+}
+/* design for Tablet screen(0-992px) */
+@media screen and (max-width: 992px) {
+  .logo h1 {
+    font-size: 25px;
+  }
+  .btn-resume {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .btn-white {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .card-content {
+    max-width: 400px;
+    height: auto;
+    padding: 40px;
+  }
+  .new-dev h2 {
+    font-size: 36px;
+  }
+  .heading-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .heading-content p {
+    font-size: 16px;
+    margin-bottom: 28px;
+  }
+}
+/* design for Mobile screen(0-640px) */
+@media screen and (max-width: 640px) {
+  .logo h1 {
+    font-size: 15px;
+  }
+  .btn-resume {
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: normal;
+  }
+  .btn-white {
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+  }
+  .new-dev h2 {
+    font-size: 20px;
+  }
+  .new-dev img {
+    max-width: 150px;
+  }
+  .new-dev p {
+    font-size: 15px;
+  }
+  .heading-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .heading-content p {
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+  .sector {
+    flex-direction: column-reverse;
+  }
+  .sector-content {
+    max-width: 100%;
+  }
+  .sector-image {
+    max-width: 100%;
+  }
+  .sector-content h2 {
+    font-size: 16px;
+  }
+  .sector-content p {
+    font-size: 14px;
+  }
+  .card {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .card-content h2 {
+    font-weight: normal;
+    font-size: 20px;
+  }
+}
